@@ -1,0 +1,112 @@
+:root{
+  font-size: 15px;
+  font-family: "DM Sans";
+  letter-spacing: -0.5px;
+}
+.inner{
+  max-width: 100%;
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+img{width: 100%;}
+.headline{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+}
+.headline h3{
+  font-size: 24px;
+  font-weight: 600;}
+.headline a{
+  color:#A18A68;
+  margin-top: 8px;
+  display: inline-block;}
+.MainList ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list{
+  width: calc(100% / 4 - 2rem);
+  margin-left: 1.6rem;
+}
+.list:nth-of-type(4n){
+  /* margin-right: 0; */
+}
+.imgCon{
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.imgCon .discount{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: goldenrod;
+  height: 25px;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  border-radius: 0 5px 5px 5px;
+} 
+.imgCon .imgLabel{
+  position: absolute;
+  bottom:-80px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  transition: 0.5s;
+}
+.list:hover .imgLabel{bottom:0;}
+
+/* Shop */
+.AllList{
+  display: flex; 
+  justify-content: space-between;}
+.AllList .snb{
+  width: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.AllList .snb li{
+  border: 2px solid goldenrod;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  padding: 0.5rem; transition: 0.35s;
+}
+.AllList .snb li:hover{
+  background-color: goldenrod;
+  color: #fff;
+}
+.AllList>.MainList{width: 78%;}
+.imgCon{margin-bottom: 2rem;}
+.imgCon>img{position:relative;}
+.imgCon .imgText{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: #fff;
+}
+.imgCon .imgText h2{font-size: 2.5rem; font-weight: bold;}
+.imgCon .imgText p{padding:0.8rem 0;}
+.imgCon .imgText a{
+  border: 1px solid #ffffff;
+  padding: 0.8rem 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  box-sizing: border-box; transition: 0.35s;
+}
+.imgCon .imgText a:hover{
+  background-color: goldenrod;
+  border:1px solid transparent;
+}

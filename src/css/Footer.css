@@ -1,0 +1,16 @@
+.footer{color: #5a5656; margin-top: 2rem; padding-top:2rem ; border-top: 0.5px solid #ddd;}
+.footer a{text-decoration: none;color: #5a5656;}
+.top{display: flex; justify-content: space-between;}
+
+.top nav{width: 60%;}
+.top nav a{padding: 0 2rem;} 
+.top>div{display: flex; justify-content: space-between; width: 30%;
+  border-bottom: 0.5px solid #ddd;padding-bottom: 2rem;}
+.bottom{}
+.bottom>div{display: flex; justify-content: space-between; cursor: pointer;
+}
+.bottom>div>*{
+  padding: 0 0.5rem;
+}
+.bottom{display: flex;justify-content: space-between; padding: 2rem;}
+.bottom .icon{display: flex; }
